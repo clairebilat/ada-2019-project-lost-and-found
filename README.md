@@ -12,13 +12,13 @@ The principal questions we'll answer are :
 
 New problematics could be asked during the analysis and would be added to these.
 
-The purpose of the project is to help the consumer to easily choose where to eat in Chicago and to provide them an interactive and intuitive way to browse the different places offered to them. Also, it could help the Chicago department of Public Health’s Food Protection Program to adapt their methods relying on the situation described by the findings of the analysis (for example, if a prevention program should be proposed for a specific area or establishment).
+The purpose of the project is to help the consumer to easily choose where to eat in Chicago and to provide them an interactive and intuitive way to browse the different places offered to them. Also, it could help the Chicago department of Public Health’s Food Protection Program to adapt their methods relying on the situation described by the findings of the analysis (for example, if a prevention program should be proposed for a specific area or type of facility).
 
 # Research questions
  
 - How to take the appropriate precautions when viewing or analyzing these data in order to manage the duplicates ?
 
-- Which types of facility types will we focus on ?
+- Which types of facility will we focus on ?
 
 - How to manage the out of business or not located establishements ?
 
