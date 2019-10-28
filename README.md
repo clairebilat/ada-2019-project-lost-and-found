@@ -26,8 +26,6 @@ The purpose of the project is to help the consumer to easily choose where to eat
 
 - How to take into account the esthablishments with multiple violations ?
 
-- How will the healthiness of an establishment be implemented ?
-
 - How to get to a general view in order to compare the establishments effectively and wisely ?
 
 - How to manage the fact that the Food Code Rules have changed since 2010 ?
@@ -41,7 +39,7 @@ The dataset that will be used is the Chicago Food Inspections from the list prov
 Focusing on the rows, we will have to take care of the duplicates. It involve to manage the problem of the multiplicity of the inspections for a same establishment.It is specified that establishments found to be out of business or not located are receiving a 'fail' of its inspection, this is an element to be careful about.
 We'll have to process the violation's column in order to only take the id of the different violations (not the comments).
 As the code has changed since 2010 (see http://dev.cityofchicago.org/open%20data/data%20portal/2018/06/29/food-violations-changes.html), we will have to find a way to consider the changes and to manage what follows from it. It has been specified that two datasets exist, one for the datas before 2018 and one for the datas after; either we will focus our attention on one of the two or we will have to find a way to merge them.
-We'll need to define a function in order to quantify healthiness and to add a new column calculating the one of each establishment.
+To get to a general view, we'll need to define a function in order to quantify healthiness and to add a new column calculating the one of each establishment.
 
 # A list of internal milestones up until project milestone 2
  
