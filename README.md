@@ -22,7 +22,7 @@ The purpose of the project is to help the consumer to easily choose where to eat
 
 - How to manage the out of business or not located establishements ?
 
-- How to deal with establishments that were inspected more than one time, and not necessarily for the same reason ?
+- How to deal with establishments that were inspected more than one time ?
 
 - How to take into account the esthablishments with multiple violations ?
 
