@@ -53,7 +53,7 @@ To get to a general view, we'll need to define a function in order to quantify h
     
 - (3rd week) Answer the questions (healthiness of public food establishments according to the type of facility, ward and time ; types of violation depending of the type of facility, ward and time ; where the program could focus to improve the global healthiness). Identify if other questions are interesting to be asked.
 
-- (4th week) Create the interactive map (if it's still meaningfull) and the visualization.
+- (4th week) Create the interactive map (if it's still meaningful) and the visualization.
 
 # Prospect
 
