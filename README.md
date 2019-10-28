@@ -1,19 +1,16 @@
-# Title
-ex : Backtracking Innovation
-ex : From Snapchat's Facial Recognition to the Inception of Semiconductors
+# Where to eat in Chigago : an analysis of the inspections from Chicago department of Public Health's Food Protection Programm
 
 # Abstract
-A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
-ex : The US Patent & Trademark Office, short USPTO, offers a full-fledged directed graph of US patent citations since 1975. Many at the time obscure patents paved the way for groundbreaking new technologies in the future, as for example Google's Page Rank (#6285999) or Apple's touch screen devices (#7479949). In our project we endeavor to visualize this massive graph with more than 89 Million edges in an appealing and concise way in order to render the narration of more intricate stories possible and offer potential users a slick and interactive interface for navigating the patents graph. Inspirations on how to beautifully draw a graph network are taken from Kirell Benzi. Those stories may range from analysing node connectivities to extract influences of particular inventors to finding the shortest walks between patents. Through this we hope to gain deeper insight into the metastructure of inventions throughout the digital revolution and how they shape the future as we know it today.
+The Chicago department of Public Health’s Food Protection Program provides a database derived from inspections of restaurants and other food establishments in Chicago from 20120 to the present. It contains many information about the establishments, like the type of facility (groceries’ stores, restaurants, coffee shop, …), and its location. Many information about the violations detected there are also provided there, like the reason that led to the inspection.
+In our project we endeavor to visualize the healthiness of public food establishments according to the type of facility or its ward. An analysis of the violation’s type according to the facility’s type and the facility’s ward will also be conducted. 
+The purpose of the project is to help the consumer to easily choose where to eat in Chicago, but also help the Chicago department of Public Health’s Food Protection Program to adapt their response and work (for example, where should a prevention program be proposed).
+
 
 
 # Research questions
-A list of research questions you would like to address during the project. 
-ex : How to apply common graph algorithms to a massive data set?
-How to efficiently travers and query a graph of that scale?
-How to visualize a large and complicated graph?
-How to handle missing edges in the patent graph?
-How to draw conclusions about technology soley given patents and their citations?
+How to exercise the appropriate precautions when viewing or analyzing these data in order to manage the duplicatas ?
+How to implement a good vizualisation tool (with an interactive map for example) ?
+How to take into account that an esthablishment has multiple violations ?
 
 
 # Dataset
