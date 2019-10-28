@@ -59,5 +59,5 @@ To get to a general view, we'll need to define a function in order to quantify h
 
 The pinn3r dataset could bring informations based on searches by list of keywords and using tools capable to determine if a sentence is positive, negative or neutral (for example SentiWordNet), which could be relyied on to explain some trends in the results obtained through the healthiness defined during the study.
 
-# Questions for TAa
+# Questions for TAs
 Does our project seem reasonable and interesting enough for the purpose of the exercise and which questions seem most promising (to know what to focus on first) ?
