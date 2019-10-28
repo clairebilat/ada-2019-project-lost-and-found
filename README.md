@@ -18,6 +18,10 @@ How to take into account that an esthablishment has multiple violations ?
 
 How to manage the fact that the violations' definitions has changed in 2018 ?
 
+Which facilities' types will we study ?
+
+How will the healthiness of an establishment be implemented ?
+
 
 # Dataset
 
@@ -30,6 +34,8 @@ The dataset that will be used is the Chicago Food Inspection from the list provi
     - what are the most common violations ?
     - how will we implement the healthiness of an establishment ? Only the risk factor or will we take the type of violation into             account ? If so, how to classify them ?
     - Are the locations well distributed or is a ward-study irrelevant ?
+ - Answer the questions (healthiness of public food establishments according to type facility and ward, violation's type according to facility's type and ward)
+ - Identifiy if other questions are interesting to answer
 
 # Questions for TAa
 Add here some questions you have for us, in general or project-specific.
