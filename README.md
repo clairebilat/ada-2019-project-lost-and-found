@@ -16,6 +16,8 @@ How to implement a good vizualisation tool (with an interactive map for example)
 
 How to take into account that an esthablishment has multiple violations ?
 
+How to manage the fact that the violations' definitions has changed in 2018 ?
+
 
 # Dataset
 
