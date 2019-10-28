@@ -7,7 +7,7 @@ In our project we endeavor to visualize the healthiness of public food establish
 
 The principal questions we'll answer are : 
     - Which ward of Chicago are the most healthy and unhealthy ? 
-    - Which type of facility tend to be more unhealthy ? 
+    - Which type of facility tend to be less healthy ? 
     - Did the healthiness of the food in Chicago increase or decrease from 2010 until now ?
 
 New problematics could be asked during the analysis and would be added to these.
