@@ -1,7 +1,7 @@
 # Where to eat in Chigago : an analysis of the inspections from Chicago department of Public Health's Food Protection Programm
 
 # Abstract
-The Chicago department of Public Health’s Food Protection Program provides a database derived from inspections of restaurants and other food establishments in Chicago from 20120 to the present. It contains many information about the establishments, like the type of facility (groceries’ stores, restaurants, coffee shop, …), and its location. Many information about the violations detected there are also provided there, like the reason that led to the inspection.
+The Chicago department of Public Health’s Food Protection Program provides a database which contains information from inspections reports of restaurants and other food establishments in Chicago from 20120 to the present. It contains many information about the establishments, like the type of facility (groceries’ stores, restaurants, coffee shop, …), and its location. Many information about the violations detected there are also provided there, like the reason that led to the inspection.
 In our project we endeavor to visualize the healthiness of public food establishments according to the type of facility or its ward. An analysis of the violation’s type according to the facility’s type and the facility’s ward will also be conducted. 
 The purpose of the project is to help the consumer to easily choose where to eat in Chicago, but also help the Chicago department of Public Health’s Food Protection Program to adapt their response and work (for example, where should a prevention program be proposed).
 
@@ -14,6 +14,7 @@ How to take into account that an esthablishment has multiple violations ?
 
 
 # Dataset
+
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 
 # A list of internal milestones up until project milestone 2
@@ -23,21 +24,6 @@ Add here a sketch of your planning for the next project milestone.
 Add here some questions you have for us, in general or project-specific.
 
 
-
-Example 1 : 
-
-Social topics throughout music: sentiment analysis
-Abstract
-In this project, our goal is to find out about the social topics evolution in culture. We will use music lyrics from the “Million song dataset” to analyse sentiment in tracks from artist, genres and time. What can the sentiment towards different topics in songs tell us about people and the time they live in? Our goal is to provide a visualization of semantic trends in music, that hopefully will give people more insight into everyday social topics and how they evolve as a part of our culture. To visualize our data, we want high interactivity so one can have filter by one’s own interest in this high dimensional space. Therefore, our work will be presented in the form of an interactive blog.
-
-Research questions
-We will guide our work with the following questions:
-
-How is the perception of certain topics evolving throughout time and within genres?
-How is the relationship between topics and locations characterized in different music genres?
-Is there a correlation between the complexity of lyrics and specific topics?
-Dataset
-Our main dataset is coming from the one called “Million song” that was provided with the project list. As specified in the abstract we will be working on the lyrics with the “musiXmatch” dataset and the “tagtraum” dataset for genres. We might use the “Top MAGD” dataset that gives more music genres, it depends on how performant we manage to be with the first genre dataset. We will also use NLTK to analyse whether the words/sentences that are used are of a positive or negative nature. To get additional specific information from artists, like pictures and origin, we will use Wikidata
 
 A list of internal milestones up until project milestone 2
 04.11
@@ -69,14 +55,6 @@ Is the idea fitting to the “social good” topic?
 In terms of visualization and analysis, which aspect is the most important one?
 
 
-
-Example 2 :
-
-Title
-Evolution in music through the years.
-
-Abstract
-The music world is constantly increasing with lot of songs published everyday from all over the world. Moreover, the world is becoming more connected and this helps to spread music popularity. We want to understand how music popularity evolved in the last roughly 60 years, as music is a really important social factor. People express themselves, and lot of cultural events and customs are derived from it. This popularity could help explain some movements influence, the creation of some music styles and what makes a song popular. If there was a "perfect" composition it would be interesting as it has also become a money-making industry. We will use the dataset from MillionSongDB, coupled with some website such as The Echo Nest API (now Spotify) and musicbrainz.
 
 Research questions
 Which features did change (e.g. bpm, beats)?
@@ -124,13 +102,7 @@ Is there a possibility to convert IDs from the dataset to Spotify URNs?
 
 
 
-Example 3 :
 
-Mental Health in Switzerland
-Abstract
-Social media, such as Twitter, provide a unique look into people’s feelings and thoughts. As such, aggregated data from social media has previously been successfully used to identify depression and other mental illnesses in users. However, most studies on this subject tend to focus only on clinical depression, which is a very specific condition that is not indicative of the general mental health of the population.
-
-Switzerland has one of the best mental health infrastructures, indicating that mental health probably is a problem within the population. Nevertheless, society still stigmatizes these issues, which is why we turn to social media to get a better picture of mental health in the country by focusing on more general indicators of mental health disorders. We use simple natural language processing methods to get more insights into the affected population and how they are perceived by Swiss society.
 
 Research questions
 Mental Health : where we stand
@@ -178,13 +150,6 @@ How should we best get data from the 200 years news source, how can we deal with
 
 
 
-Example 4 :
-
-Backtracing Innovation
-From Snapchat's Facial Recognition to the Inception of Semiconductors
-
-Abstract
-The US Patent & Trademark Office, short USPTO, offers a full-fledged directed graph of US patent citations since 1975. Many at the time obscure patents paved the way for groundbreaking new technologies in the future, as for example Google's Page Rank (#6285999) or Apple's touch screen devices (#7479949). In our project we endeavor to visualize this massive graph with more than 89 Million edges in an appealing and concise way in order to render the narration of more intricate stories possible and offer potential users a slick and interactive interface for navigating the patents graph. Inspirations on how to beautifully draw a graph network are taken from Kirell Benzi. Those stories may range from analysing node connectivities to extract influences of particular inventors to finding the shortest walks between patents. Through this we hope to gain deeper insight into the metastructure of inventions throughout the digital revolution and how they shape the future as we know it today.
 
 Research questions
 How to apply common graph algorithms to a massive data set?
