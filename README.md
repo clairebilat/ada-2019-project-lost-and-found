@@ -38,5 +38,5 @@ The dataset that will be used is the Chicago Food Inspection from the list provi
  - Identifiy if other questions are interesting to answer
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+Does our project seem reasonable and interesting enough for the purpose of the exercise and which questions seem most promising (so that we know what we should do first) ?
 
