@@ -3,7 +3,7 @@
 # Abstract
 The Chicago department of Public Health’s Food Protection Program provides a database which contains the information from inspection reports of restaurants and other food establishments in Chicago from 2010 to the present. It contains many informations about the establishments, like their type of facility (groceries’ stores, restaurants, coffee shop, …) and their locations. Many informations about the violations listed are also provided in the database, like the description of the findings that caused them and the reason that invoked the staff from the program to led an inspection.
 
-In our project we endeavor to visualize the healthiness of public food establishments according to their type of facility, their ward and the date of the inspection. An analysis of the violation’s types according to these three parameters will also be conducted. The impact of two other factors on the healthiness of food facilities in Chicago will be analyzed : first, the correlation between the owner of an establishment and its healthiness will be studied ; we want to discover if all establishements owned by an unhealthy owner are unhealthy or if those two factors are not correlated. Then we want to study the impact of the crime in Chicago on the healthiness of the establishments (according to the amount and gravity of crime in each ward).  
+In our project we endeavor to visualize the healthiness of public food establishments according to their type of facility, their ward and the date of the inspection. An analysis of the violation’s types according to these three parameters will also be conducted. The impact of two other factors on the healthiness of food facilities in Chicago will be analyzed : first, the correlation between the owner of an establishment and its healthiness will be studied ; we want to discover if all establishements owned by an unhealthy owner are unhealthy or if those two factors are not correlated. Then we want to study the impact of the level of crime in Chicago on the healthiness of the establishments (according to the amount and gravity of crime in each ward).  
 
 The purpose of the project is to help the consumer to easily choose where to eat in Chicago and to provide them an interactive and intuitive way to browse the different places offered to them. Also, it could help the Chicago department of Public Health’s Food Protection Program to adapt their methods relying on the situation described by the findings of the analysis (for example, if a prevention program should be proposed for a specific area or type of facility).
 
@@ -16,7 +16,7 @@ The purpose of the project is to help the consumer to easily choose where to eat
     - It is healthier to eat in a public or private facility ?
     - Did the healthiness of the food in Chicago increase or decrease from 2010 until now ?
     - Do all establishments owner by the same person tend to have the same level of healthiness ?
-    - Is the crime correlated with the healthiness of the food in Chicago ?
+    - Is the level of crime correlated with the healthiness of the food in Chicago ?
 
 # Dataset
 
