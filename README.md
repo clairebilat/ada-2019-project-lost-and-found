@@ -15,7 +15,7 @@ The purpose of the project is to help the consumer to easily choose where to eat
     - Which type of facility tend to be less healthy ? 
     - It is healthier to eat in a public or private facility ?
     - Did the healthiness of the food in Chicago increase or decrease from 2010 until now ?
-    - Are the licensed facilities a trend to be more healthy or unhealthy ?
+    - Do all establishments owner by the same person tend to have the same level of healthiness ?
     - Is the crime correlated with the healthiness of the food in Chicago ?
 
 # Dataset
