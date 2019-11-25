@@ -27,7 +27,7 @@ As the code has changed since 2010 (see http://dev.cityofchicago.org/open%20data
 To get a general view of the healthiness of the establishments, we defined a function in order to quantify healthiness and added a new column expressing it of each establishment.
 
 The second dataset will be Chicago Business Licenses and Owners (https://www.kaggle.com/chicago/chicago-business-licenses-and-owners).
-With this database, we first needed to merge the two sub-database : the license database, and the owner database.
+With this database, we first needed to merge the two sub-databases : the license database, and the owner database.
 For the owner database, we creaedt a column with the full name (first + last).
 We finally mergeed the two sub-set databases in one dataframe, and merge this dataframe with the food-inspection one.
 
