@@ -31,7 +31,7 @@ With this database, we first needed to merge the two sub-database : the license 
 For the owner database, we creaedt a column with the full name (first + last).
 We finally mergeed the two sub-set databases in one dataframe, and merge this dataframe with the food-inspection one.
 
-The third one will be the Crimes in Chicago database (https://www.kaggle.com/currie32/crimes-in-chicago).
+The third one will be the Crimes in Chicago databases (https://www.kaggle.com/currie32/crimes-in-chicago).
 For the rows, we had to take car of the duplicates. Some crime may have been entered by two or more police officers, and then create duplicates.
 The principal informations interseting us are the primary type of crime, their latitude and longitude and the their community area. The primary type column has been parsed to see if two types of crime are entered differently in the database (if two types of crime are the same but under different label). For the other columns, we had to deal with the miisng values.
 To get a crimescore and see the correlation with the healthiness score, we had to create it. We used the minimum prison penalty for each type of crime and then compute this crimescore for each crime.
