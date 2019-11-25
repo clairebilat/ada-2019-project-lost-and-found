@@ -21,20 +21,20 @@ The purpose of the project is to help the consumer to easily choose where to eat
 # Dataset
 
 The first dataset that will be used is the Chicago Food Inspections from the list provided. 
-Focusing on the rows, we will have to take care of the duplicates. It involve to manage the problem of the multiplicity of the inspections for a same establishment. It is specified that establishments found to be out of business or not located are receiving a 'fail' of its inspection, this is an element to be careful about.
-We'll have to process the violation's column in order to only take the id of the different violations (not the comments).
-As the code has changed since 2010 (see http://dev.cityofchicago.org/open%20data/data%20portal/2018/06/29/food-violations-changes.html), we will have to find a way to consider the changes and to manage what follows from it. It has been specified that two datasets exist, one for the datas before 2018 and one for the datas after; either we will focus our attention on one of the two or we will have to find a way to merge them.
-To get to a general view, we'll need to define a function in order to quantify healthiness and to add a new column calculating the one of each establishment.
+Focusing on the rows, we took care of the duplicates. It involves managing the problem of the multiplicity of the inspections for a same establishment. 
+We processed the violation's column in order to only take the id of the different violations (not the comments).
+As the code has changed since 2010 (see http://dev.cityofchicago.org/open%20data/data%20portal/2018/06/29/food-violations-changes.html), we found a way to consider the changes and to manage what follows from it.
+To get to a general view, we defined a function in order to quantify healthiness and to add a new column calculating the one of each establishment.
 
 The second dataset will be Chicago Business Licenses and Owners (https://www.kaggle.com/chicago/chicago-business-licenses-and-owners).
-With this database, we'll first need to merge the two sub-database : the license database, and the owner database.
-For the owner database, we'll creat a column with the full name (first + last).
-We'll finally merge the two sub-set databases in one dataframe, and merge this dataframe with the food-inspection one.
+With this database, we first needed to merge the two sub-database : the license database, and the owner database.
+For the owner database, we creaedt a column with the full name (first + last).
+We finally mergeed the two sub-set databases in one dataframe, and merge this dataframe with the food-inspection one.
 
 The third one will be the Crimes in Chicago database (https://www.kaggle.com/currie32/crimes-in-chicago).
-For the rows, we'll have to take car of the duplicates. Some crime may have been entered by two or more police officers, and then create duplicates.
-The principal informations interseting us are the primary type of crime, their latitude and longitude and the their community area. The primary type column will be parsed to see if two types of crime are entered differently in the database (if two types of crime are the same but under different label). For the other columns, we'll have to deal with the miisng values.
-To get a crimescore and see the correlation with the healthiness score, we'll have to create it. We'll use the minimum prison penalty for each type of crime and then compute this crimescore for each crime.
+For the rows, we had to take car of the duplicates. Some crime may have been entered by two or more police officers, and then create duplicates.
+The principal informations interseting us are the primary type of crime, their latitude and longitude and the their community area. The primary type column has been parsed to see if two types of crime are entered differently in the database (if two types of crime are the same but under different label). For the other columns, we had to deal with the miisng values.
+To get a crimescore and see the correlation with the healthiness score, we had to create it. We used the minimum prison penalty for each type of crime and then compute this crimescore for each crime.
 
 # A list of internal milestones up until project milestone 3 (report)
  
@@ -57,7 +57,6 @@ To get a crimescore and see the correlation with the healthiness score, we'll ha
 
 Analyzing other elements that can have an impact on the healthiness of food facilities in Chicago : the quality of life in different wards (or community area), the tourism repartition in Chicago,...
 
-It is too ambitious, but using the amazon database to see if some restaurants owner or restaurants are ordering food on it, then finding a way to quantify the quality of the food bought. Then we could analyze the correlation between this food-quality-score and the healthiness score of the different restaurants (this is made under the hyothesis that some restaurants are ordering their food on amazon).
 
 # Questions for TAs
 Does our project seem still reasonable and interesting enough for the purpose of the exercise ?
