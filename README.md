@@ -24,7 +24,7 @@ The first dataset that will be used is the Chicago Food Inspections from the lis
 Focusing on the rows, we took care of the duplicates. It involves managing the problem of the multiplicity of the inspections for a same establishment. 
 We processed the violation's column in order to only take the id of the different violations (not the comments).
 As the code has changed since 2010 (see http://dev.cityofchicago.org/open%20data/data%20portal/2018/06/29/food-violations-changes.html), we found a way to consider the changes and to manage what follows from it.
-To get a general view of the healthiness of the establishments, we defined a function in order to quantify healthiness and to add a new column calculating the one of each establishment.
+To get a general view of the healthiness of the establishments, we defined a function in order to quantify healthiness and added a new column expressing it of each establishment.
 
 The second dataset will be Chicago Business Licenses and Owners (https://www.kaggle.com/chicago/chicago-business-licenses-and-owners).
 With this database, we first needed to merge the two sub-database : the license database, and the owner database.
