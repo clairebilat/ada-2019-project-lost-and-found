@@ -10,6 +10,7 @@ The purpose of the project is to help the consumer to easily choose where to eat
 # Research questions
  
  The principal questions we'll answer are : 
+ 
     - Which ward of Chicago are the most healthy and unhealthy ? 
     - Which type of facility tend to be less healthy ? 
     - It is healthier to eat in a public or private facility ?
@@ -38,6 +39,7 @@ To get a crimescore and see the correlation with the healthiness score, we'll ha
 # A list of internal milestones up until project milestone 3 (report)
  
 - (1st week) Start the analysis, and start answering the research questions :
+
              - Which is the Healthiest ward ?
              - Which is the healthiest type of facility ?
              - Should we prefer public or private facility ?
