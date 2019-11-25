@@ -28,24 +28,24 @@ To get a general view of the healthiness of the establishments, we defined a fun
 
 The second dataset will be Chicago Business Licenses and Owners (https://www.kaggle.com/chicago/chicago-business-licenses-and-owners).
 With this database, we first needed to merge the two sub-databases : the license database, and the owner database.
-For the owner database, we creaedt a column with the full name (first + last).
-We finally mergeed the two sub-set databases in one dataframe, and merge this dataframe with the food-inspection one.
+For the owner database, we created a column with the full name (first + last).
+We finally merged the two sub-set databases in one dataframe, and will merge this dataframe with the food-inspection one.
 
-The third one will be the Crimes in Chicago databases (https://www.kaggle.com/currie32/crimes-in-chicago).
-For the rows, we had to take car of the duplicates. Some crime may have been entered by two or more police officers, and then create duplicates.
-The principal informations interseting us are the primary type of crime, their latitude and longitude and the their community area. The primary type column has been parsed to see if two types of crime are entered differently in the database (if two types of crime are the same but under different label). For the other columns, we had to deal with the miisng values.
-To get a crimescore and see the correlation with the healthiness score, we had to create it. We used the minimum prison penalty for each type of crime and then compute this crimescore for each crime.
+The third one will be the Crimes in Chicago database (https://www.kaggle.com/currie32/crimes-in-chicago).
+For the rows, we had to take care of the duplicates. Some crimes may have been entered by two or more police officers, and thus created duplicates.
+The principal informations which interest us are the primary types of crimes, their latitudes and longitudes and the their community areas. The primary type column has been parsed to see if two types of crime are entered differently in the database (if two types of crime are the same but under different label). For the other columns, we had to deal with the missing values.
+To compute the correlation between the level of crime and the healthiness score, we had to create a crime score. We used the minimum prison penalty for each type of crime and then compute this crimescore for each crime.
 
 # A list of internal milestones up until project milestone 3 (report)
  
 - (1st week) Start the analysis, and start answering the research questions :
 
-             - Which is the Healthiest ward ?
-             - Which is the healthiest type of facility ?
-             - Should we prefer public or private facility ?
-             - Did the healthiness increase or decrease since 2010 ?
-             - Is a facility under the same owner healthier or not ?
-             - Does the crime impact the healthiness of food facilities ?
+    - Which ward of Chicago are the most healthy and unhealthy ? 
+    - Which type of facility tend to be less healthy ? 
+    - It is healthier to eat in a public or private facility ?
+    - Did the healthiness of the food in Chicago increase or decrease from 2010 until now ?
+    - Do all establishments owner by the same person tend to have the same level of healthiness ?
+    - Is the level of crime correlated with the healthiness of the food in Chicago ?
              
 - (2nd week) See if we need to come back and process again our dataset according to our needs.
     
