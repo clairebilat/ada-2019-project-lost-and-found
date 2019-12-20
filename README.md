@@ -6,6 +6,9 @@ https://clairebilat.github.io/forensic-data-stories/2019-12-20-food-chicago/
 
 The preprocessing and analysis performed can be found in the notebook of this project (Milestone-3.ipynb).
 
+## Note
+
+You'll find 2 Milestone3 in this repository, Milestone-3.ipynb is the notebook, and Milestone-3.html is the html version where you'll find the display of the maps created.
 
 # Abstract
 The Chicago department of Public Health’s Food Protection Program provides a database containing the information about inspections' reports of restaurants and other food establishments in Chicago from 2010 to the present. It contains many information about the establishments, like their type (groceries’ stores, restaurants, coffee shop, …) and their locations. There is also many information about the violations listed in the database, like their description and their causes and the reason that led to the inspection.
@@ -49,8 +52,4 @@ Gaëtan : Data crawling, data preprocessing (community areas integration, hygien
 # Prospect
 
 Analyzing other elements that can have an impact on the healthiness of food facilities in Chicago : the quality of life in different wards (or community area), the tourism repartition in Chicago,...
-
-# Note
-
-You'll find 2 Milestone3 in this repository, 1 is the notebook, and the other one is in html to display the maps created.
 
