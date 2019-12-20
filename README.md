@@ -37,7 +37,7 @@ The fourth and last dataset used for this project is the **[Geographic Boundarie
 
 Agathe : Problem formulation, Notebook structuration, data crawling, data preprocessing (type casting, selection of facilities of interest, community areas integration, dataset business-owners), analysis (graph vizualisation and interpretation)
 
-Claire : Data crawling, data preprocessing (inspection dates, risks , non-defined license numbers, violations, inspection results, inspection score), data story
+Claire : Data crawling, data preprocessing (inspection dates, risks , non-defined license numbers, violations, inspection results, inspection score), data story, oral presentation of the poster
 
 Florence : Data crawling, data preprocessing (selection of facilities of interest), analysis (maps vizualisation and interpretation)
 
