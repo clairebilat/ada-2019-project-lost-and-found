@@ -50,3 +50,7 @@ Gaëtan : Data crawling, data preprocessing (community areas integration, hygien
 
 Analyzing other elements that can have an impact on the healthiness of food facilities in Chicago : the quality of life in different wards (or community area), the tourism repartition in Chicago,...
 
+# Note
+
+You'll find 2 Milestone3 in this repository, 1 is the notebook, and the other one is in html to display the maps created.
+
