@@ -39,9 +39,9 @@ Agathe : Problem formulation, Notebook structuration, data crawling, data prepro
 
 Claire : Data crawling, data preprocessing (inspection dates, risks , non-defined license numbers, violations, inspection results, inspection score), data story, oral presentation of the poster
 
-Florence : Data crawling, data preprocessing (selection of facilities of interest), analysis (maps vizualisation and interpretation)
+Florence : Data crawling, data preprocessing (selection of facilities of interest), analysis (maps vizualisation and interpretation), poster creation
 
-Gaëtan : Data crawling, data preprocessing (community areas integration, hygiene score, dataset crime, generation of the 3 dataframes analyzed), embedding of graphs in the data story
+Gaëtan : Data crawling, data preprocessing (community areas integration, hygiene score, dataset crime, generation of the 3 dataframes analyzed), embedding of graphs in the data story, poster creation
 
 
 # Prospect
