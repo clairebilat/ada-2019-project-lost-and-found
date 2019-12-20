@@ -35,13 +35,13 @@ The fourth and last dataset used for this project is the **[Geographic Boundarie
 
 # The work distribution
 
-Agathe :
+Agathe : Problem formulation, Notebook structuration, data crawling, data preprocessing (type casting, selection of facilities of interest, community areas integration, dataset business-owners), analysis (graph vizualisation and interpretation)
 
-Claire :
+Claire : Data crawling, data preprocessing (inspection dates, risks , non-defined license numbers, violations, inspection results, inspection score), data story (construction of the website)
 
-Florence :
+Florence : Data crawling, data preprocessing (selection of facilities of interest), analysis (maps vizualisation and interpretation)
 
-Gaëtan : 
+Gaëtan : Data crawling, data preprocessing (community areas integration, hygiene score, dataset crime, generation of the 3 dataframes analyzed), data story (embedding of graphs)
 
 
 # Prospect
