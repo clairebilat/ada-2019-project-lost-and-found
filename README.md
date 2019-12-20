@@ -1,6 +1,6 @@
-# Eat safely in Chigago :A short data analysis of the Chicago Food Inspections Database
+# Eat safely in Chigago : A short data analysis of the Chicago Food Inspections Database
 
-A nice data story helping to visalize the results of our project can be found there :
+A nice data story helping to visualize the results of our project can be found there :
 
 https://clairebilat.github.io/forensic-data-stories/2019-12-20-food-chicago/
 
